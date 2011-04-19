@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Registro de Usuarios</title>
+  <script src="scripts/funciones.js">
+  <!--
+    alert(' Error en la libreria JS. \n Esta pagina no funcionara correctamente');
+
+    function comprobar(nombre, apellidos, dir, ciudad, user, email,pass, repass) {
+      var cmail = valiemail(email);
+      var cpass = valipass(pass, repass)
+
+      if (cmail && cpass)
+           alert("CORRECTO");
+      else alert("NO CORRECTO");
+    }
+
+  // -->
+  </script>
+
+
+</head>
+<body>
+<table border="0">
+
+  <tr>
+    <td align="right">Nombre: </td>
+    <td align="left"><input type="text" name="nombre"></td>
+  </tr>
+
+  <tr>
+    <td align="right">Apellidos: </td>
+    <td align="left"><input type="text" name="apellidos"></td>
+  </tr>
+  <tr>
+    <td align="right">Direccion: </td>
+    <td align="left"><input type="text" name="dir"></td>
+  </tr>
+  <tr>
+    <td align="right">Ciudad: </td>
+    <td align="left"><input type="text" name="ciudad"></td>
+  </tr>
+  <tr>
+    <td align="right">E-mail: </td>
+    <td align="left"><input type="text" name="email"></td>
+  </tr>
+  <tr>
+    <td align="right">Nombre de Usuario: </td>
+    <td align="left"><input type="text" name="user"></td>
+  </tr>
+  <tr>
+    <td align="right">Password: </td>
+    <td align="left"><input type="password" name="passwd"></td>
+  </tr>
+  <tr>
+    <td align="right">Confirmacion password: </td>
+    <td align="left"><input type="password" name="repasswd"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="button" value="Registrar" onclick="comprobar(nombre, apellidos, dir, ciudad, user, email,passwd,repasswd)"></td>
+  </tr>
+
+</table>
+</body>
+</html>
