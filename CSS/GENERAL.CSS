@@ -1,0 +1,73 @@
+A:link, A:visited, A:active{text-decoration:none; COLOR: white; font-family: "Comic Sans MS"}
+A:hover { text-decoration:underline; font-family: "Comic Sans MS"}
+A.menu:hover { BACKGROUND: white; font-family: "Comic Sans MS";color:black}
+
+BODY {
+	BACKGROUND: black; COLOR: gray; font-family: "Comic Sans MS"
+}
+P {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+PRE {
+	COLOR: white; font-family: "Courier"
+}
+
+OL {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+DL {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+
+UL {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+LI {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+DT {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS";font-size: 120%
+}
+DD {
+	COLOR: gray; TEXT-ALIGN: justify; font-family: "Comic Sans MS"
+}
+TABLE {
+	COLOR: gray; font-family: "Comic Sans MS"
+}
+TD {
+	COLOR: gray; font-family: "Comic Sans MS"
+}
+TD.form{
+	COLOR: gray; font-family: "Arial";font: bold;
+}
+TH {
+	COLOR: gray; font-family: "Comic Sans MS"
+}
+
+H1 {
+	COLOR: gray; font-family: "Arial"
+}
+H2 {
+	COLOR: gray; font-family: "Arial"
+}
+H3 {
+	COLOR: gray; font-family: "Arial"
+}
+H4 {
+	COLOR: gray; font-family: "Arial"
+}
+H5 {
+	COLOR: gray; font-family: "Arial"
+}
+H6 {
+	COLOR: gray; font-family: "Arial"
+}
+BR {
+	COLOR: gray; font-family: "Comic Sans MS"
+}
+FORM {
+	COLOR: gray; font-family: "Comic Sans MS"
+}
+IMG {
+	COLOR: gray; font-family: "Comic Sans MS";border=0;
+}

@@ -1,0 +1,18 @@
+<HTML>
+<HEAD>
+  <SCRIPT LANGUAGE="JavaScript">
+    function AbrirVentana() {
+      MiVentana=open("","MiPropiaVentana",
+        "toolbar=no,directories=no,menubar=no,status=yes");
+      MiVentana.document.write("<%response.write('hola')%>");
+      
+    }
+  </SCRIPT>
+</HEAD>
+<BODY>
+<FORM>
+<INPUT TYPE="button" NAME="Boton1" VALUE="Abreme, Sésamo"
+  onClick="AbrirVentana()">
+</FORM>
+</BODY>
+</HTML>

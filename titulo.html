@@ -1,0 +1,68 @@
+<HTML>
+  
+  <HEAD>
+    <TITLE>DEUSTO BAZAR.com</TITLE>
+    <LINK REL="stylesheet" HREF="css/menu.css" TYPE="text/css">
+    
+    <script lenguaje="JavaScript">
+    <!--
+    if (document.images){
+      ireg = new Image();
+      ivender = new Image();
+      ihelp = new Image();
+      icount = new Image();
+      ibuscar = new Image();
+
+      iregi = new Image();
+      ivenderi = new Image();
+      ihelpi = new Image();
+      icounti = new Image();
+      ibuscari = new Image();
+      
+      ireg.src = "images/reg.gif";
+      ivender.src = "images/vender.gif";
+      ihelp.src = "images/help.gif";
+      icount.src = "images/count.gif";
+      ibuscar.src = "images/buscar.gif";
+
+      iregi.src = "images/regi.gif";
+      ivenderi.src = "images/venderi.gif";
+      ihelpi.src = "images/helpi.gif";
+      icounti.src = "images/counti.gif";
+      ibuscari.src = "images/buscari.gif";
+    
+    }
+    
+  function activar(imagen) {
+   if (document.images) document[imagen].src = eval("i"+imagen + "i.src");
+  }
+  // --------------------------------------------------------------
+  function desactivar(imagen) { 
+   if (document.images) document[imagen].src = eval("i"+imagen + ".src");
+  }
+    
+    //-->
+</script>
+  </HEAD>
+  
+  <BODY background="images/fondo.jpg">
+    <table border="0" CELLSPACING="0" CELLPADDING="0" width="100%">
+      <tr><td><a href="index.html" target="_top"><IMG SRC="images/logo.gif" width="150" height="90" ALIGN="TOP" BORDER="0"></a></td>
+         <td align="right" valign="bottom">  
+         <table width="100%" border="0" CELLSPACING="0" CELLPADDING="0">
+           <tr>
+             <td><a href="user/registro.html" target="main" onmouseover="activar('reg')" onmouseout="desactivar('reg')"><img src="images/reg.gif" name="reg" border=0></a></td>
+             <td><a href="subastas/index.asp" target="main" onmouseover="activar('vender')" onmouseout="desactivar('vender')"><img src="images/vender.gif" name="vender" border=0></a></td>
+             <td><a href="error.html" target="main" onmouseover="activar('help')" onmouseout="desactivar('help')"><img src="images/help.gif" name="help" border=0></a></td>
+             <td><a href="user/logon.asp" target="main" onmouseover="activar('count')" onmouseout="desactivar('count')"><img src="images/count.gif" name="count" border=0></a></td>
+             <td><a href="buscar/buscar.asp" target="main" onmouseover="activar('buscar')" onmouseout="desactivar('buscar')"><img src="images/buscar.gif" name="buscar" border=0></a></td>
+           </tr>
+           <tr>
+             <td bgcolor="#ffcc00" colspan="5"><img src="images/x.gif" height="3"></td>
+           </tr>
+           
+       </table>
+         </td></tr>
+    </table>
+  </BODY>
+</HTML>

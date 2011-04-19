@@ -1,0 +1,19 @@
+BODY { font-family:Arial; font-size: 8pt; bgcolor:#bfd1ff }
+
+A:link, A:visited, A:active { text-decoration: none; color: #0000cc; font: 8pt verdana }
+A:hover { }
+td { font: 8pt verdana}
+
+H1 { font: 22pt verdana, arial; font-weight: bold; margin-top:0.2em;
+     margin-bottom:0.2em; }
+H2 { font: italic 20pt verdana, arial; font-weight: light; margin-top:0.2em;
+     margin-bottom:0.2em; }
+H3 { font: 14pt verdana, arial; font-weight: bold; margin-top:0.2em;
+     margin-bottom:0.2em; }
+H4 { font: 12pt verdana, arial; font-weight: bold; margin-top:0.2em;
+     margin-bottom:0.2em; }
+UL { font: 8pt verdana, arial; }
+UL LI { font: 8pt verdana, arial; }
+TD.titulo{font: 14pt verdana, arial; font-weight: bold; margin-top:0.2em;margin-bottom:0.2em;color="white" } 
+TD.mensaje{font: 12pt verdana, arial; font-weight: bold; margin-top:0.2em;margin-bottom:0.2em;color="black" } 
+
